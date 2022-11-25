@@ -22,6 +22,7 @@ public class Main {
                 mp.put(i,1);
             }
         }
+        
         for(String i: mp.keySet()){
             System.out.println(i+" : "+mp.get(i));
         }
